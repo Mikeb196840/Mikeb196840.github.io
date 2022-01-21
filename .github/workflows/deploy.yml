@@ -19,5 +19,5 @@ jobs:
           password: ${{ secrets.PASSWORD }} 
           port: ${{ secrets.PORT }}
           script: |
-            cd TestRepo
+            cd ../pub/mikeb196840.github.io 
             git pull
